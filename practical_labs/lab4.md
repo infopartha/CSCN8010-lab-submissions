@@ -10,5 +10,5 @@ In this lab, we will run multivariate linear model and two polynomial regression
 4. Run a multivariate polynomial regression of the 2nd degree on all variables (Hint: set `include_bias=False` in `PolynomialFeatures`) **(0.5 points)**
 5. Compare the three models by looking at R-squared, MAPE and MAE. Explain what the values mean for a non-expert and add your insight about the values of each model. Note: You can add any further comparisons and code (this is not necessary for a perfect score, but will be reviewed and evaluated)  **(2 points)**
 6. Please answer the following questions:
-    1. How many parameters are we fitting for each of the three models? Explain these values. Hint: for explaining the parameters of the polynomial regression, you can use `poly.get_feature_names_out()` **(1 point)**
+    1. How many trainable parameters are we fitting for each of the three models? Explain these values. Hint: for explaining the number of the trainable parameters of the polynomial regression, you can use `poly.get_feature_names_out()` **(1 point)**
     2. Which model would you choose for deployment, and why? **(1 point)**
